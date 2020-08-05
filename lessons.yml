@@ -1,0 +1,20 @@
+- Abstract: Foo bar
+  Negative example:
+    asdf
+    lotsotext
+  Positive example: qwer
+  Consequence:
+    - cons1
+    - cons2
+  Title: iughil
+  UUID: urn:uuid:4dd42fca-669d-4f13-8312-9c70f78b7823
+- Abstract: Yay
+  Positive example: qwer
+  Consequence:
+    - cons1
+    - cons2
+  Title: iughil
+  Negative example:
+    asdf
+    lotsotext
+  UUID: urn:uuid:af2a2a0b-2518-455b-9663-d416ea216274
