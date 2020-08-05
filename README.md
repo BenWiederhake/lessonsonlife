@@ -19,7 +19,7 @@ You need python to compile it, and git to push it.
 
 Also, you need `pyyaml`, you can install it like this: `pip install pyyaml`
 
-This repository uses submodules. You should either clone with `--recursive`, or run `git submodule update` to checkout `./gh-pages/`.
+This repository uses submodules. You should either clone with `--recursive`, or run `git submodule update --init` to get the `./gh-pages/` directory.
 
 ## Usage
 
