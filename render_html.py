@@ -26,6 +26,7 @@ TEMPLATE_LESSON_ITEM = '''\
 '''
 TEMPLATE_KEYS = ['Abstract', 'Negative example', 'Positive example', 'Consequence']
 TEMPLATE_IGNORE = set(['Title', 'UUID'])
+EXPLAIN_UUID_CHECK = True
 
 
 def convert_uuids(lessons):
@@ -39,10 +40,9 @@ def convert_uuids(lessons):
             matches = sum(a == b for a, b in zip(u_i, u_j))
             # Even if you take a thousand UUIDs, and some pessimistic assumptions,
             # Less than half the time you see 8 matches, and only 5% of the time you see more than that.
-            # If you have about 30 UUIDs, the chance to get more than 4 matches is about 1%.
-            # In general: N^2 (n choose k) * 16^{-k}
-            # All this is about variant 4 UUIDs, of course.
-            if matches > 4 + 4:
+            if matches > 4 + 1 + 8:
+                if EXPLAIN_UUID_CHECK:
+                    print(i, j, u_i, u_j, matches)
                 print('ERROR: These UUIDs seem unrandom. Use actual UUIDs.\nHere are some actually-random ones:')
                 for _ in range(round(len(lessons) * 1.01) + 5):
                     print(uuid.uuid4().urn)
@@ -76,7 +76,7 @@ def render_html(lessons_dict):
 
         html_items = []
         for key in TEMPLATE_KEYS:
-            if key not in lesson:
+            if key not in lesson or not lesson[key]:
                 print('WARNING: Missing recommended key "{}" in lesson {}'.format(key, lesson['UUID']))
                 continue
             for value in wrap_value(lesson[key]):
