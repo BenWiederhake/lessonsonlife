@@ -4,6 +4,7 @@ import datetime
 import html
 import json
 import shutil
+import urllib.parse
 import uuid
 import yaml
 
@@ -24,7 +25,7 @@ TEMPLATE_LESSON_ITEM = '''\
 <dt class="col-sm-2">{key}</dt>
 <dd class="col-sm-9">{value}</dd>\
 '''
-TEMPLATE_KEYS = ['Abstract', 'Negative example', 'Positive example', 'Consequence']
+TEMPLATE_KEYS = ['Abstract', 'Negative example', 'Positive example', 'Consequence', 'See also']
 TEMPLATE_IGNORE = set(['Title', 'UUID'])
 EXPLAIN_UUID_CHECK = True
 
@@ -80,7 +81,18 @@ def render_html(lessons_dict):
                 print('WARNING: Missing recommended key "{}" in lesson {}'.format(key, lesson['UUID']))
                 continue
             for value in wrap_value(lesson[key]):
-                html_items.append(TEMPLATE_LESSON_ITEM.format(key=key, value=html.escape(value)))
+                if isinstance(value, str):
+                    formatted_value = html.escape(value)
+                elif isinstance(value, dict):
+                    assert len(value) == 1, value
+                    value_text, value_url = list(value.items())[0]  # FIXME: Ugly!
+                    formatted_value = '{}: <a href="{}">{}</a>'.format(
+                        html.escape(value_text),
+                        html.escape(urllib.parse.quote(value_url, safe=':/')),
+                        html.escape(value_url))
+                else:
+                    raise AssertionError('tf is this shit?', value)
+                html_items.append(TEMPLATE_LESSON_ITEM.format(key=key, value=formatted_value))
 
         lessons_html.append(TEMPLATE_LESSON.format(uuid=html_uuid, number=html_number, title=html_title, items='\n'.join(html_items)))
         overview.append(TEMPLATE_OVERVIEW.format(uuid=html_uuid,number=html_number, title=html_title))

@@ -1,20 +1,113 @@
-- Abstract: Foo bar
-  Negative example:
-    asdf
-    lotsotext
-  Positive example: qwer
-  Consequence:
-    - cons1
-    - cons2
-  Title: iughil
+- Title: Have a feedback loop
   UUID: urn:uuid:4dd42fca-669d-4f13-8312-9c70f78b7823
-- Abstract: Yay
-  Positive example: qwer
-  Consequence:
-    - cons1
-    - cons2
-  Title: iughil
+  Abstract:
+    - A control loop works better when the controller actually considers input and output.
+    - (Ask yourself) What works well currently, do I want to do that again? What works badly
+      currently, do I want to try something different / avoid that?
   Negative example:
-    asdf
-    lotsotext
-  UUID: urn:uuid:af2a2a0b-2518-455b-9663-d416ea216274
+    - Alice eats according to a specific diet to achieve a certain physiological level.
+      However, Alice never actually checks whether she makes progress, and thus never notices
+      that her diet doesn't actually work.
+    - Bob does not notice that his finances/health/other systems have slowly deteriorated over the last time,
+      and therefore cannot do anything against it.
+  Positive example:
+    - At the end of each day/month/year, Carol reviews what happened, and draws conclusions.
+  Consequence:
+    - This entire list.
+  See also:
+    - Humorous take: https://xkcd.com/1457/
+- Title: Focus on reality
+  UUID: urn:uuid:72a50b2c-2f6c-45d2-a589-8573cd3d4eb4
+  Abstract:
+    - Only reality can have an influence on you.
+    - Deal with the current state, not what you wish the state would already be.
+  Negative example:
+    - Carlos went down the rabbit-hole and is reading up on everything wrong with a situation
+      geographically/demographically/politically far away, and gets burned out by worrying
+      without actually acting against it.
+    - Dave has spent the last X amount of time binge-reading some horror/fantasy/science
+      fiction stories, and lost track of what's happening around him.
+    - While exploring all possible hypotheticals and considering each eventuality,
+      Chuck forgot to prepare for the most likely outcome.
+    - Dan abhors certain aspects the current situation, and therefore ignores those aspects.
+  Positive example:
+    - Charlie acknowledges new information, and now can decide how and whether to act.
+    - David checks verifies his assumptions before deciding something major,
+      enabling him to succeed more often than chance.
+  Consequence:
+    - Enjoy news/fiction/daydreaming, explore hypotheticals, but don't drown in it.
+    - Don't shoot the messenger.
+  See also:
+    - '"This Video Will Make You Angry" (CGP Grey)': https://www.youtube.com/watch?v=rE3j_RHkqJc
+    - "Repression": https://en.wikipedia.org/wiki/Repression_(psychology)
+- Title: Everything is a function of time
+  UUID: urn:uuid:5f04ccf4-a632-4a58-8d3f-a5c6651efca4
+  Abstract:
+    - Social/financial/moral status change over time.
+  Negative example:
+    - Faythe knows Erin very well. However, because she fails to update her mental model of Erin,
+      she eventually starts to behave weirdly.
+    - Frank has to update something, and calls the new document NewSomething. The next time, he will
+      call it NewNewSomething. Soon, all metadata is lost; this blocks further improvements to the process.
+  Positive example:
+    - Frank is a convicted criminal. However, after facing justice and rehabilitation, he gets employed to prevent this kind of criminality, maybe through security measures or remedying the incentives that tempted him.
+  Consequence:
+    - Tag information with date, regardless whether a paper/file/brain stores it.
+    - Employ a feedback-loop to regularly reevaluate whether certain assumptions/systems/values/goals still make sense.
+  See also:
+    - The only constant is change: https://en.wikiquote.org/wiki/Heraclitus
+    - The "boiling frog" fable: https://en.wikipedia.org/wiki/Boiling_frog
+    - The "ladder monkeys" fable: https://wiki.c2.com/?TheFiveMonkeys
+- Title: Do the right thing
+  UUID: urn:uuid:78fa76c2-6b99-4f57-8f20-de6910fa0de5
+  Abstract:
+    - Which actions do you have available, in this moment?
+    - What should you be doing right now, realistically?
+  Negative example:
+    - Heidi FIXME
+  Positive example:
+    - Grace enjoys a movie, without 80% of her brain being busy checking and analyzing what she has planned for the day/week/month.
+  Consequence:
+    - 'Never regret: Either you did it intentionally, or you had no way of knowing any better.'
+  See also:
+    - '"Yak Shaving" (negative example)': https://en.wiktionary.org/wiki/yak_shaving
+    - "Keep it simple, silly": https://en.wikipedia.org/wiki/KISS_principle
+    - "YAGNI": https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it
+- Title: Automate everything
+  UUID: urn:uuid:7ad85b13-528a-4a5b-87d3-0b68df411942
+  Abstract: Your life expectancy is large enough; you'll probably have to do it again and again.
+  Negative example:
+    - Every day, Judy wakes up and agonizes over which particular shirt to wear, what specifically to eat for breakfast, etc, instead of making a plan and having a rough idea in advance.
+    - Mallet organized an event for the second time. Because he didn't make any notes last year during the first event, he has to reinvent all solutions and rediscover all problems from scratch.
+  Positive example:
+    - Mallory has a particularly interesting nut to crack for his job. Because his feet “know where to take him”, he comes up with the solution just as he reaches work.
+  Consequence:
+    - 'Build habits: Deciding against a good habit is harder than deciding in favor of a good action.'
+    - Use your decisions wisely; you only have a limited capacity: https://www.ted.com/talks/barry_schwartz_the_paradox_of_choice?rid=nMh3l7bo1Qwh
+    - Teach your autopilot the basic steps in your life.
+    - And, of course, mechanical automation: Dish washers, scripts, calenders, etc.
+- Title: You are, not "have"
+  UUID: urn:uuid:566438be-bcf5-4751-9c40-8b57f4715eea
+  Abstract:
+  Negative example:
+  Positive example:
+  Consequence:
+- Title: Nobody knows anything
+  UUID: urn:uuid:4a9cef68-4f24-4e1a-ba9a-f86609d08fe0
+  Abstract:
+  Negative example:
+  Positive example:
+  Consequence:
+- Title: Everything is a spectrum, technically
+  UUID: urn:uuid:d659c43d-a3c5-4af3-a65b-27a80a9cbd27
+  Abstract:
+  Negative example:
+  Positive example:
+  Consequence:
+    - Generalizations are, generally, false.
+- Title: Start at the problem, not the solution
+  UUID: urn:uuid:ac919de7-3ca0-46f6-843d-3ec917729284
+  Abstract:
+  Negative example:
+  Positive example:
+  Consequence:
