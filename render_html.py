@@ -86,7 +86,7 @@ def render_html(lessons_dict):
                 elif isinstance(value, dict):
                     assert len(value) == 1, value
                     value_text, value_url = list(value.items())[0]  # FIXME: Ugly!
-                    formatted_value = '{}: <a href="{}">{}</a>'.format(
+                    formatted_value = '{}: <a class="text-monospace" href="{}">{}</a>'.format(
                         html.escape(value_text),
                         html.escape(urllib.parse.quote(value_url, safe=':/')),
                         html.escape(value_url))
