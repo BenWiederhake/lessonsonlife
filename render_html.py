@@ -26,6 +26,8 @@ TEMPLATE_LESSON_ITEM = '''\
 <dd class="col-sm-9">{value}</dd>\
 '''
 TEMPLATE_KEYS = ['Abstract', 'Negative example', 'Positive example', 'Consequence', 'See also']
+# Raw HTML!
+TEMPLATE_KEY_ALTERNATIVES = {'Consequence': 'Conse&shy;quence'}
 TEMPLATE_IGNORE = set(['Title', 'UUID'])
 EXPLAIN_UUID_CHECK = True
 
@@ -92,7 +94,11 @@ def render_html(lessons_dict):
                         html.escape(value_url))
                 else:
                     raise AssertionError('tf is this shit?', value)
-                html_items.append(TEMPLATE_LESSON_ITEM.format(key=key, value=formatted_value))
+                if key in TEMPLATE_KEY_ALTERNATIVES:
+                    key_html = TEMPLATE_KEY_ALTERNATIVES[key]
+                else:
+                    key_html = key
+                html_items.append(TEMPLATE_LESSON_ITEM.format(key=key_html, value=formatted_value))
 
         lessons_html.append(TEMPLATE_LESSON.format(uuid=html_uuid, number=html_number, title=html_title, items='\n'.join(html_items)))
         overview.append(TEMPLATE_OVERVIEW.format(uuid=html_uuid,number=html_number, title=html_title))
