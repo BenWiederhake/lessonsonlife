@@ -126,7 +126,7 @@ def run():
         fp.write(render_html(lessons_raw))
     install('favicon.png')
     install('favicon.ico')
-    install('bootstrap.min.css')
+    install('bootstrap_4.5.1.min.css')
     install('LICENSE')
     install('logo.gif')
     install(LESSONS_FILE)
