@@ -2,16 +2,17 @@
   UUID: urn:uuid:4dd42fca-669d-4f13-8312-9c70f78b7823
   Abstract:
     - A control loop works better when the controller actually considers input and output.
-    - (Ask yourself) What works well currently, do I want to do that again? What works badly
-      currently, do I want to try something different / avoid that?
+    - (Ask yourself) What works well currently, do I want to do that again? What bothers
+      me, do I want to try something different or even avoid that?
   Negative example:
-    - Alice eats according to a specific diet to achieve a certain physiological level.
+    - Alice eats according to a specific diet to achieve a certain physiological goal.
       However, Alice never actually checks whether she makes progress, and thus never notices
       that her diet doesn't actually work.
-    - Bob does not notice that his finances/health/other systems have slowly deteriorated over the last time,
+    - Bob does not notice that his finances/health/other systems have slowly deteriorated over time,
       and therefore cannot do anything against it.
   Positive example:
-    - At the end of each day/month/year, Carol reviews what happened, and adjusts her goals/priorities/values.
+    - At the end of each day/month/year, Carol spends some time on review,
+      and adjusts her goals/priorities/values.
   Consequence:
     - Learn from your mistakes. Also, learn from other people's mistakes.
     - This entire list.
@@ -24,17 +25,17 @@
     - Only reality can have an influence on you.
     - Deal with the current state, not what you wish the state would already be.
   Negative example:
-    - Carlos went down the rabbit-hole and is reading up on everything wrong with a situation
-      geographically/demographically/politically far away, and gets burned out by worrying
-      without actually acting against it.
-    - Dave has spent the last X amount of time binge-reading some horror/fantasy/science
-      fiction stories, and lost track of what's happening around him.
-    - While exploring all possible hypotheticals and considering each eventuality,
-      Chuck forgot to prepare for the most likely outcome.
-    - Dan abhors certain aspects the current situation, and therefore ignores those aspects.
+    - Carlos keeps up on everything wrong with a situation that is
+      geographically/demographically/politically far away, and burns himself out by worrying,
+      without actually achieving anything.
+    - Dave has spent too much time thinking about horror/fantasy/sci-fi stories/movies/games/daydreams/novels,
+      and lost track of what's happening around him.
+    - After preparing for all possibilities and considering each eventuality,
+      Chuck got surprised by the most likely outcome.
+    - Dan abhors the current situation, and therefore simply denies those aspects of reality.
   Positive example:
     - Charlie acknowledges new information, and now can decide how and whether to act.
-    - David checks verifies his assumptions before deciding something major,
+    - David verifies his assumptions before deciding something major,
       enabling him to succeed more often than chance.
   Consequence:
     - Enjoy news/fiction/daydreaming, explore hypotheticals, but don't drown in it.
@@ -47,15 +48,18 @@
   Abstract:
     - Social/financial/moral status change over time.
   Negative example:
-    - Faythe knows Erin very well. However, because she fails to update her mental model of Erin,
-      she eventually starts to behave weirdly.
     - Frank has to update something, and calls the new document NewSomething. The next time, he will
-      call it NewNewSomething. Soon, all metadata is lost; this blocks further improvements to the process.
+      call it NewNewSomething. Soon, all metadata is lost, impeding him in the future.
+    - Rupert got a conviction for something minor, faces justice and rehabilitation,
+      and clearly has learnt his lesson. However, employers/neighbors/companies
+      consider him dangerous, unable to grasp the concept that people can change.
   Positive example:
-    - Frank is a convicted criminal. However, after facing justice and rehabilitation, he gets employed to prevent this kind of criminality, maybe through security measures or remedying the incentives that tempted him.
+    - Faythe has known Erin for several decades. While deciding on a birthday present,
+      she decides against something that Erin would have liked back in the days,
+      because his interests have moved on, and it would no longer spark joy for him.
   Consequence:
     - Tag information with date, regardless whether a paper/file/brain stores it.
-    - Employ a feedback-loop to regularly reevaluate whether certain assumptions/systems/values/goals still make sense.
+    - Regularly reevaluate whether your assumptions, systems, values, and goals still make sense.
   See also:
     - The only constant is change: https://en.wikiquote.org/wiki/Heraclitus
     - The “boiling frog” fable: https://en.wikipedia.org/wiki/Boiling_frog
@@ -75,6 +79,7 @@
     - Perfect is the opposite of good: https://ciaranonuallainblog.wordpress.com/2020/10/04/motivation-and-why-finishing-a-personal-project-is-hard/
     - Figure out how to participate, e.g. in your country: https://www.youtube.com/watch?v=KXXYkLa-HHI
   See also:
+    - Victory, not Vengence: http://www.anachronsounds.de/webfiles/history.htm
     - '“Yak Shaving” (negative example)': https://en.wiktionary.org/wiki/yak_shaving
     - “Keep it simple, silly“: https://en.wikipedia.org/wiki/KISS_principle
     - “YAGNI”: https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it
@@ -82,10 +87,15 @@
   UUID: urn:uuid:7ad85b13-528a-4a5b-87d3-0b68df411942
   Abstract: Your life expectancy is large enough; you'll probably have to do it again and again.
   Negative example:
-    - Every day, Judy wakes up and agonizes over which particular shirt to wear, what specifically to eat for breakfast, etc, instead of making a plan and having a rough idea in advance.
-    - Mallet organized an event for the second time. Because he didn't make any notes last year during the first event, he has to reinvent all solutions and rediscover all problems from scratch.
+    - Every day, Judy wakes up and agonizes over which particular shirt to wear,
+      what specifically to eat for breakfast, etc, instead of making a plan once
+      and having a good idea in advance.
+    - Mallet organized an event for the second time. Because he didn't make any
+      notes last year during the first event, he has to reinvent all solutions
+      and rediscover all problems from scratch.
   Positive example:
-    - Mallory has a particularly interesting nut to crack for his job. Because his feet “know where to take him”, he comes up with the solution just as he reaches work.
+    - Mallory paid close attention when he had to put in a fly net years ago.
+      Moving into a new apartment, he finishes it in under an hour.
   Consequence:
     - 'Build habits: Deciding against a good habit is harder than deciding in favor of a good action.'
     - Use your decisions wisely; you only have a limited capacity: https://www.ted.com/talks/barry_schwartz_the_paradox_of_choice?rid=nMh3l7bo1Qwh
@@ -96,39 +106,42 @@
 - Title: You are, not “have”
   UUID: urn:uuid:566438be-bcf5-4751-9c40-8b57f4715eea
   Abstract:
-    - Turns out, your brain is connected to your body. Listen to it; it's your only one.
+    - Turns out, your brain is connected to your body.
+      Listen to it; all that sensory input is there for a reason.
     - 'Does a clock “have” hands? Does it “have” a battery, a casing, printed numbers,
       various electronic parts, etc? If so, what “is” the clock? Likewise, you “are” your body:
       Take care of your mind, your eyes, your hands, your heart, etc.'
   Negative example:
-    - Pat hates his body, because it can tolerate only so little alcohol.
-      According to him, Pat could have so many more drinks without his body.
+    - Pat ignores a pain he “has always had”. A single trip to the doctor could have
+      told him what it was, and how to fix the underlying problem.
   Positive example:
-    - Mike notices that sometimes he strongly likes and sometimes strongly likes strongly
-      salted French fries. Turns out, his body knows how much salt it currently needs,
+    - Mike notices that sometimes he strongly likes and sometimes strongly dislikes
+      heavily salted French fries. Turns out, his body knows how much salt it currently needs,
       and can signal “hunger” accordingly.
   Consequence:
     - Pain is a warning light. “Turning off” the warning light shouldn't be your first action when it lights up.
+    - Don't punish your body (unless you're into that).
 - Title: Nobody knows anything
   UUID: urn:uuid:4a9cef68-4f24-4e1a-ba9a-f86609d08fe0
   Abstract:
     - Every sentence is technically a statement that is prefixed by “I believe that …”.
-    - True, absolute knowledge is impossible.
+    - True and absolute knowledge does not exist.
   Negative example:
     - The doctor's assistant tells Michael that he shouldn't eat anything for the next three days.
-      That's because the assistant misunderstood the direction, and Michael should merely reduce
+      That's because the assistant misunderstood the doctor's orders, and Michael should merely reduce
       lactose intake for the next three days.
-    - Siegfried has often experienced people around him being wrong. Siegfried now "knows" that
-      everyone is wrong, and will not possibly listen to any argument whatsoever.
+    - Siegfried has often experienced certain people around him to be “wrong”. Siegfried now “knows” that
+      they are wrong, and will not even question his own beliefs.
 #  Positive example:
 #    - TODO
 #  Furthermore, this "lesson" is a bit all over the place. Help me clean it up? :)
   Consequence:
     - Beware the false dichotomy: https://yourlogicalfallacyis.com/black-or-white
     - Correlation is not causation. Also, there are other forms of causation, like confoundation.
+    - “What do you believe, and why do you believe it?”: https://conceptspace.fandom.com/wiki/Fundamental_Question_of_Rationality
     - All rules, guidelines, and advice (including this page) are slightly off.
       Always check whether they make sense in context.
-    - Do not assume malevolence if it can be explained by wrong assumptions or bad information.
+    - Do not assume malevolence in what can be explained by wrong assumptions or bad information.
   See also:
     - … except for mathematics: https://xkcd.com/263/
 - Title: Start at the problem, not the solution
